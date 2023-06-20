@@ -1,6 +1,6 @@
 # How to run
 
-Install all the ![dependencies needed](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html), you can use the provided Nix script to automatically create a shell with everything needed:
+Install all the [dependencies needed](https://docs.godotengine.org/en/stable/contributing/development/compiling/index.html), you can use the provided [Nix script](https://github.com/Woynert/gdextension-template/blob/f8c5b55d9c052b47fb1b79aa4b9d313d25e530ed/shell.nix) to automatically create a shell with everything needed:
 
 ```
 $ nix-shell
