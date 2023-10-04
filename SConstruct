@@ -3,7 +3,7 @@ import os
 import sys
 import SCons
 
-gameDirectory = "example"
+gameDirectory = "game"
 env = SConscript("godot-cpp/SConstruct")
 
 def GlobRecursive(pattern, node='.'):

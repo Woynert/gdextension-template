@@ -10,9 +10,10 @@ config_version=5
 
 [application]
 
-config/name="example"
-run/main_scene="res://level1.tscn"
-config/features=PackedStringArray("4.0", "GL Compatibility")
+config/name="game"
+config/tags=PackedStringArray("phyco")
+run/main_scene="res://level_demo.tscn"
+config/features=PackedStringArray("4.1", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [rendering]
